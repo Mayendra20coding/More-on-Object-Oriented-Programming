@@ -1,0 +1,11 @@
+class Emoployee:
+    def _int__(self):
+        print('destructor called')
+def Create_obj():
+    print('Making object...')
+    obj= Emoployee()
+    print('funtion end...')
+    return obj
+print('calling create_obj()function...')
+obj= Create_obj()
+print('program end...')
